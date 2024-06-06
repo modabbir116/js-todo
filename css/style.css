@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.mainTodo{
+    width: 550px;
+    background-color: #ddd;
+    padding: 20px 30px;
+    margin: 100px auto;
+}
+.mainTodo h2{
+    color: #222;
+    
+}
+.fromFill{
+    margin-top: 20px;
+}
+.fromFill input{
+    color: #222;
+    font-size: 18px;
+    border: 2px solid #222;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.fromFill button{
+    color: #222;
+    font-size: 18px;
+    border: 2px solid #222;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.todoClassList{
+    color: #222;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.todoClassList p{
+   padding: 10px 0;
+}
